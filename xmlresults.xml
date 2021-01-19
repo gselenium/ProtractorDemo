@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites disabled="0" errors="0" failures="0" tests="1" time="5.435">
- <testsuite name="Banking Application test" timestamp="2021-01-18T08:57:20" hostname="localhost" time="5.435" errors="0" tests="1" skipped="0" disabled="0" failures="0">
-  <testcase classname="Banking Application test" name="Validate customer Login verification test" time="5.429" />
+<testsuites disabled="0" errors="0" failures="0" tests="1" time="0.906">
+ <testsuite name="Match Title tests" timestamp="2021-01-18T22:44:15" hostname="localhost" time="0.906" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Match Title tests" name="Validate exact title: " time="0.9" />
  </testsuite>
 </testsuites>
