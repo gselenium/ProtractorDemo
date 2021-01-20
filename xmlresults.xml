@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites disabled="0" errors="0" failures="0" tests="1" time="0.906">
- <testsuite name="Match Title tests" timestamp="2021-01-18T22:44:15" hostname="localhost" time="0.906" errors="0" tests="1" skipped="0" disabled="0" failures="0">
-  <testcase classname="Match Title tests" name="Validate exact title: " time="0.9" />
+<testsuites disabled="0" errors="0" failures="0" tests="3" time="3.239">
+ <testsuite name="Validating the Calculator app" timestamp="2021-01-20T19:50:46" hostname="localhost" time="3.239" errors="0" tests="3" skipped="0" disabled="0" failures="0">
+  <testcase classname="Validating the Calculator app" name="Validate exact title" time="1.219" />
+  <testcase classname="Validating the Calculator app" name="Validate title should not match" time="1.069" />
+  <testcase classname="Validating the Calculator app" name="Validate partial title match" time="0.944" />
  </testsuite>
 </testsuites>
