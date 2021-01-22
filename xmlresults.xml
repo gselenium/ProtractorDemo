@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites disabled="0" errors="0" failures="0" tests="3" time="3.239">
- <testsuite name="Validating the Calculator app" timestamp="2021-01-20T19:50:46" hostname="localhost" time="3.239" errors="0" tests="3" skipped="0" disabled="0" failures="0">
-  <testcase classname="Validating the Calculator app" name="Validate exact title" time="1.219" />
-  <testcase classname="Validating the Calculator app" name="Validate title should not match" time="1.069" />
-  <testcase classname="Validating the Calculator app" name="Validate partial title match" time="0.944" />
+<testsuites disabled="0" errors="0" failures="0" tests="2" time="5.346">
+ <testsuite name="Gmail Application testing, Datadriven using Json file" timestamp="2021-01-21T14:57:01" hostname="localhost" time="5.346" errors="0" tests="2" skipped="0" disabled="0" failures="0">
+  <testcase classname="Gmail Application testing, Datadriven using Json file" name="Gmail Login test" time="3.934" />
+  <testcase classname="Gmail Application testing, Datadriven using Json file" name="Gmail Login test" time="1.406" />
  </testsuite>
 </testsuites>

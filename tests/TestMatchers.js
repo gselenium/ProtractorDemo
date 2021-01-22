@@ -1,4 +1,4 @@
-var logger = require('D:/ProtractorAngularJS/ProtractorDemo/tests/log');
+var logger = require('./log');
 
 describe("Validating the Calculator app",function(){
 

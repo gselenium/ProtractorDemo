@@ -20,7 +20,7 @@ exports.config = {
 
   // Spec patterns are relative to the current working directory when
   // protractor is called.
-  specs: ['../tests/TestMatchers.js'],
+  specs: ['../tests/ReadXlFileTest.js'],
 
   // Options to be passed to Jasmine.
   jasmineNodeOpts: {
@@ -84,6 +84,12 @@ fs.emptyDir('screenshots/', function (err) {
   onComplete: function () {
     var browserName, browserVersion;
     var capsPromise = browser.getCapabilities();
+
+    console.log("Sending Mail with reports for the test execution.");
+    var sys = require('util')
+   var exec = require('child_process').exec;
+   function puts(error, stdout, stderr) { console.log(stdout) }
+    exec("node sendmail.js", puts);
 
     capsPromise.then(function (caps) {
       browserName = caps.get('browserName');

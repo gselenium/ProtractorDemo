@@ -1,0 +1,21 @@
+{
+
+  "baseurl":"https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1",
+
+  "locators":{
+
+    "loginpage":{
+      "username":"//*[@id='Email']",
+      "next":"Next"
+    }
+
+  },
+
+  "userdetails":{
+    "username1":"govardhan.selenium@gmail.com",
+    "password1":"test12345",
+    "username2":"gkarnati.qa@gmail.com",
+    "password2":"vardhan1234"
+
+  }
+}
